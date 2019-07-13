@@ -2,11 +2,8 @@
 This repo contains all my useful Chrome Extensions(or, Firefox Add-ons) that I made for some useful browser functionalities or sometimes randomly just for fun.
 <h3>HOW TO INSTALL A DEVELOPER VERSION</h3>
 
-1. `git clone git@github.com:voximplant/voximplant-chrome-extension.git`
+1. `git clone git@github.com:arghac14/Chrome-Extensions.git`
 2. Go to the folder with the Chrome extension. Open the **manifest.json** file and add your website to the **matches** section.
-
-![alt text](https://wpcdn.voximplant.com/wp-content/uploads/2017/08/01_chrome_extension-e1501672480837.png)
-
 3. In the address bar on a new tab, type **chrome://extensions** to open the Extensions page. Select the **Developer mode** check box to enable loading extensions from a folder.
 
 4. Click **Load unpacked extension** or drag the folder with extension onto the page to load the extension. The new extension will be displayed on the page.
