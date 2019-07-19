@@ -1,5 +1,5 @@
 # Chrome-Extensions
-This repo contains all my useful Chrome Extensions(or, Firefox Add-ons) that I made for some useful browser functionalities or sometimes randomly just for fun.
+This repository contains all my useful Chrome Extensions(or, Firefox Add-ons) that I made for some useful browser functionalities or sometimes randomly just for fun.
 <h3>HOW TO INSTALL A DEVELOPER VERSION</h3>
 
 1. `git clone git@github.com:arghac14/Chrome-Extensions.git`
