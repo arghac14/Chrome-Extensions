@@ -14,3 +14,11 @@ This repository contains some useful Chrome Extensions(or, Firefox Add-ons) that
 <h3>HOW TO MAKE A PRODUCTION VERSION</h3>
 You should pass the procedure of publishing your extension in Google Web Store. For details, see the <a href="https://developer.chrome.com/webstore/get_started_simple#step5">official documentation</a>.
 
+## Chrome Extensions:
+
+### 1. DarkON : <a href="https://github.com/arghac14/Chrome-Extensions/tree/master/DarkOn">link</a>
+Turns the sites to dark mode and also can change the background color.
+
+### 2. BrowserReminder : <a href="https://github.com/arghac14/Chrome-Extensions/tree/master/BrowserReminder">link</a>
+Show a desktop reminder message after a time interval.
+
