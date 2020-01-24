@@ -1,61 +1,88 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Set Page Color Popup</title>
-    <style>
+
+<head>
+  <title>Set Page Color Popup</title>
+
+  <style>
     body {
       overflow: hidden;
-      margin: 0px;
-      padding: 0px;
-      background: white;
+      margin: 0%;
+      width: 100%;
+      text-align: center;
+      padding: 0%;
+      background: #f2f2f2f2;
     }
-    div:first-child {
+    .container{
+      background: white;
+      padding: 10%;
+      width: 200px;
+    }
+
+    .btn:first-child {
       margin-top: 0px;
     }
-    div {
+
+    .btn {
       cursor: pointer;
       text-align: center;
-      padding: 1px 3px;
+      padding: 4px 4px;
       font-family: sans-serif;
+      display: block;
+      margin: 6%;
       font-size: 0.8em;
-      width: 100px;
-      margin-top: 1px;
+      width: 80%;
+      margin-left: 0;
+      margin-top: 7%;
       background: #cccccc;
     }
-    div:hover {
+
+    .btn:hover {
       background: #aaaaaa;
     }
+
     #red {
       border: 1px solid red;
       color: red;
     }
+
     #blue {
       border: 1px solid blue;
       color: blue;
     }
+
     #green {
       border: 1px solid green;
       color: green;
     }
+
     #yellow {
       border: 1px solid yellow;
       color: yellow;
     }
+
     #black {
       border: 1px solid black;
       color: black;
     }
-    </style>
-    <script src="popup.js"></script>
-  </head>
-  <body>
-      <b><div id="black">Dark Mode</div></b>
-      
-      <span class="text-center">&nbsp&nbsp&nbspAPPLY COLORS!</span><hr>
-    <div id="red">Red</div>
-    <div id="blue">Blue</div>
-    <div id="green">Green</div>
-    <div id="yellow">Yellow</div>
-   
-  </body>
+
+
+  </style>
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="btn" id="black"><b>Dark Mode</b></div>
+
+    <span class="text-center">APPLY COLORS!</span>
+    <hr>
+    <div class="btn" id="red">Red</div>
+    <div class="btn" id="blue">Blue</div>
+    <div class="btn" id="green">Green</div>
+    <div class="btn" id="yellow">Yellow</div>
+  </div>
+
+</body>
+
 </html>
